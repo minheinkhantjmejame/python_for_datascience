@@ -203,5 +203,51 @@ is_new = True
 #     for item in row:
 #         print(item)
 
+#*******************************************************
+# list methods  
+# numbers = [5,2,1,7,4]
+# numbers.append(20)
+# numbers.insert(2,200)
+# numbers.remove(5)
+# numbers.clear()
+# numbers.pop()
+# print(numbers.index(5))
+# print(50 in numbers)
+# print(numbers.count(3))
+# numbers.sort()
+# numbers.reverse()
+# numbers2 = numbers.copy()
+# numbers.append(10)
+# print(numbers)
+# print(numbers2)
+
+
+# exercise one 
+# wirte a program to remove the duplicates in a list 
+# numbers = [2,5,5,5,65,43,2,4,77,3,2]
+# # numbers.sort()
+# # print(numbers)
+# # print(numbers.count(2))
+# print(numbers)
+# for number in numbers:
+#     if numbers.count(number) > 1:
+#         numbers.remove(number)
+# # print(numbers)
+# # numbers.sort()
+# print(numbers)
+# my solution is wrong. Because loop is skipped the index that it is already counted
+
+#mosh's solution
+# numbers = [2,2,4,6,3,4,6,1]
+# uniques = []
+# for number in numbers:
+#     if number not in uniques:
+#         print(uniques)
+#         uniques.append(number)
+
+
+#*******************************************************
+# tuple 
+
 
 #*******************************************************
