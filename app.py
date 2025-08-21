@@ -248,6 +248,32 @@ is_new = True
 
 #*******************************************************
 # tuple 
+# coordinates = (1,2,3) #tuples
+# # coordinates = [1,2,3] list
+# x,y,z = coordinates 
+# print(y)
 
+#*******************************************************
+
+#dictionary 
+# customer = {
+#     "name":"John Smith",
+#     "age":30,
+#     "is_verified":True
+# }
+
+# customer['name'] = 'Jack Smith'
+# print(customer['name'])
+# #print(customer.get('name'))
+# print(customer.get('birthdate','2004-03-23'))
+# print(customer) 
+
+# exercise 
+ph_number = input('Phone: ')
+num_name = {0:'zero',1:'one',2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eight',9:'nine',10:'ten'}
+output = ""
+for ch in ph_number:
+    output += num_name.get(int(ch))
+print(output)
 
 #*******************************************************
